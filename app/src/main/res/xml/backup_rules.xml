@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="database" path="journal_database" />
+    <exclude domain="database" path="journal_database-wal" />
+    <exclude domain="database" path="journal_database-shm" />
+    <exclude domain="file" path="journal_photos" />
+    <exclude domain="sharedpref" path="db_key_prefs.xml" />
+    <exclude domain="sharedpref" path="db_key_prefs_plain.xml" />
+    <exclude domain="sharedpref" path="app_lock_prefs.xml" />
+    <exclude domain="sharedpref" path="draft_prefs.xml" />
+</full-backup-content>
